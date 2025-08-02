@@ -1,0 +1,35 @@
+# Real-time Q&A Application Requirements
+
+# Web Framework
+Flask==3.0.0
+Flask-SocketIO==5.3.6
+
+# Audio Processing
+sounddevice==0.4.6
+numpy==1.24.3
+webrtcvad==2.0.10
+pyaudio==0.2.11
+
+# Speech Recognition
+openai-whisper==20231117
+torch==2.1.1
+torchaudio==2.1.1
+
+# NLP and Text Processing
+nltk==3.8.1
+scikit-learn==1.3.2
+
+# API Client
+requests==2.31.0
+urllib3==2.1.0
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Utilities
+python-dateutil==2.8.2
+packaging==23.2
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
